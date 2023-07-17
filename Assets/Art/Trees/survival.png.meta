@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,28 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: survival_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 109
-        width: 81
-        height: 119
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27e3b1d595b842041a42cc435fb3101b
-      internalID: -1780324693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: survival_1
+      name: Tree0_lvl2
       rect:
         serializedVersion: 2
         x: 81
@@ -152,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: survival_2
+      name: Tree0_lvl1
       rect:
         serializedVersion: 2
         x: 162
@@ -173,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: survival_3
+      name: Tree0_lvl0
       rect:
         serializedVersion: 2
         x: 243
@@ -706,7 +685,7 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -727,7 +706,7 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -748,7 +727,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -769,7 +748,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -790,7 +769,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -811,7 +790,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -832,7 +811,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -853,7 +832,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -874,7 +853,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -882,6 +861,48 @@ TextureImporter:
       bones: []
       spriteID: 9f8b625cde4b01a47ade40b4540db076
       internalID: 245422726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree0_upper_chopped
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 81
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d094fbb95320f57429974c127f2ad3aa
+      internalID: 1722585617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree0_trunk
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 109
+        width: 31
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6daed03c8c4dc46898ad5ae2dc4984
+      internalID: -1068333157
       vertices: []
       indices: 
       edges: []
@@ -897,8 +918,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Tree0_lvl0: -830127168
+      Tree0_lvl1: -1658219651
+      Tree0_lvl2: 1442265976
+      Tree0_trunk: -1068333157
+      Tree0_upper_chopped: 1722585617
       survival_0: -1780324693
-      survival_1: 1442265976
       survival_10: 1405911057
       survival_11: -1294603855
       survival_12: 1106988117
@@ -909,7 +934,6 @@ TextureImporter:
       survival_17: 262574662
       survival_18: -439106283
       survival_19: 1712319563
-      survival_2: -1658219651
       survival_20: -181310403
       survival_21: 2001215927
       survival_22: 1513160459
@@ -920,7 +944,6 @@ TextureImporter:
       survival_27: -1110120006
       survival_28: 1558631308
       survival_29: 517274704
-      survival_3: -830127168
       survival_30: 1746788839
       survival_31: 1898308327
       survival_32: -1802234874
