@@ -10,10 +10,18 @@ public class PlayerInteraction : MonoBehaviour
 
     //public DestructibleObject target;
 
-    [SerializeField] private Collider2D _toolCollider;
-    [SerializeField] private ContactFilter2D[] _filters;
+    [SerializeField] private Collider2D toolCollider;
+    [SerializeField] private LayerMask overlapLayerMask;
 
     [SerializeField] private int _dealtDamaage = 20;
+
+    private ContactFilter2D contactFilter;
+
+    private void Awake()
+    {
+        contactFilter = new ContactFilter2D();
+        contactFilter.SetLayerMask(overlapLayerMask);
+    }
 
     public void Punch(InputAction.CallbackContext context)
     {
@@ -23,7 +31,7 @@ public class PlayerInteraction : MonoBehaviour
             OnPunch?.Invoke();
 
             Collider2D[] colliders = new Collider2D[10];
-            int num = Physics2D.OverlapCollider(_toolCollider, _filters[0], colliders);
+            int num = Physics2D.OverlapCollider(toolCollider, contactFilter, colliders);
             if (num > 0)
             {
                 foreach (var item in colliders)

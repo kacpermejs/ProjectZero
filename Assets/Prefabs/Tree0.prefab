@@ -39,14 +39,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7745637822102616993}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7745637822102616993}
     - target: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
       propertyPath: m_Name
       value: Tree0
@@ -95,27 +87,66 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2226940141736744875}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Spawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Spawner, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329685468573684957, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2072399163498065843, guid: 3420921683298ce489fc168d695bbb95, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3060089497413834928}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2226940141736744875}
   m_SourcePrefab: {fileID: 100100000, guid: 3420921683298ce489fc168d695bbb95, type: 3}
 --- !u!4 &5015757942752656467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2072399163498065843, guid: 3420921683298ce489fc168d695bbb95, type: 3}
   m_PrefabInstance: {fileID: 6438222536282199008}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7745637822102616993 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3613894363450599489, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+--- !u!1 &5316749962670378146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
   m_PrefabInstance: {fileID: 6438222536282199008}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &2226940141736744875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316749962670378146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 241654b5150741b4aa92341df952aa17, type: 3}
+  m_Script: {fileID: 11500000, guid: 37b4776d2c8c93141943bc8dd934a946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 4243102325064986330, guid: e2d7d3ae3c1b82847b8c314f49be6a04, type: 3}
+  parent: {fileID: 3060089497413834928}

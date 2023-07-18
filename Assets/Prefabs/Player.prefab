@@ -82,7 +82,7 @@ Transform:
   m_Children:
   - {fileID: 5324807659632937794}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3528123980391281127
 SpriteRenderer:
@@ -264,21 +264,10 @@ MonoBehaviour:
   OnPunch:
     m_PersistentCalls:
       m_Calls: []
-  _toolCollider: {fileID: 3488857563787601461}
-  _filters:
-  - useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 8
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
+  toolCollider: {fileID: 3488857563787601461}
+  overlapLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
   _dealtDamaage: 20
 --- !u!58 &3792615884202711926
 CircleCollider2D:
