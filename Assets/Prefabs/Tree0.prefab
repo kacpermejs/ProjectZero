@@ -40,61 +40,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
       propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7745637822102616993}
     - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnDamaged
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
       propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7745637822102616993}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnDamaged
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BreakingAnimation, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BreakingAnimation, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: hitCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 966636171628777607, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      propertyPath: destructionCallback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
       propertyPath: m_Name
       value: Tree0
@@ -149,52 +101,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2072399163498065843, guid: 3420921683298ce489fc168d695bbb95, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3060089497413834928}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5815670246729152582}
-    - targetCorrespondingSourceObject: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7745637822102616993}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3420921683298ce489fc168d695bbb95, type: 3}
 --- !u!4 &5015757942752656467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2072399163498065843, guid: 3420921683298ce489fc168d695bbb95, type: 3}
   m_PrefabInstance: {fileID: 6438222536282199008}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5316749962670378146 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1193958177264754498, guid: 3420921683298ce489fc168d695bbb95, type: 3}
+--- !u!114 &7745637822102616993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3613894363450599489, guid: 3420921683298ce489fc168d695bbb95, type: 3}
   m_PrefabInstance: {fileID: 6438222536282199008}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &5815670246729152582
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5316749962670378146}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f2f1a23a7203b548b30b1ce858a7a10, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7745637822102616993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5316749962670378146}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 241654b5150741b4aa92341df952aa17, type: 3}
