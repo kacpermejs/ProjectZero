@@ -4,19 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DestructibleObject : MonoBehaviour
+
+
+public class DestructibleObject : MonoBehaviour, IDamagable
 {
     public UnityEvent destructionCallback;
     public UnityEvent hitCallback;
 
 
     [SerializeField] private int maxHealth = 100;
-    
+
     private int health;
 
     private void Awake()
     {
-        health = maxHealth; 
+        health = maxHealth;
     }
 
     public void Hit(int damage)
