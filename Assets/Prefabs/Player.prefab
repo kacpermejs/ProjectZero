@@ -88,7 +88,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!50 &3407291618545404066
 Rigidbody2D:
   serializedVersion: 4
@@ -214,4 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e31009ad4d05384fa3a0778433a9bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnPunch:
+    m_PersistentCalls:
+      m_Calls: []
   target: {fileID: 0}
